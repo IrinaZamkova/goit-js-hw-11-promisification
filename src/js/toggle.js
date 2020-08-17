@@ -5,6 +5,7 @@ const users = [
   { name: 'Lux', active: false },
 ];
 
+
 const toggleUserState = (allUsers, userName) => {
   return new Promise(resolve => {
     const updatedUsers = allUsers.map(user =>
